@@ -39,7 +39,7 @@ void play(int startNum) {
         
         if (userInput != expected) {
             cout << "错了，正确答案是" << expected << "！" << endl;
-            cout << "你连续答对了" << rightTime << "次" << endl;
+            cout << "你连续答对了" << rightTime << "次！" << endl;
             break;
         } else {
             rightTime++;
